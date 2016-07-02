@@ -1,4 +1,4 @@
-package com.owl.minibaselib.http;
+package com.owl.baselib.http;
 
 /**
  * Created by qiushunming on 16/6/30.
@@ -6,7 +6,15 @@ package com.owl.minibaselib.http;
 public class HttpUtils {
 
     public interface OnResponse{
+        public void onStart();
 
+        public void onProcess();
+
+        public void onCancel();
+
+        public void onSuccess();
+
+        public void onError();
     }
 
     public static void post(){

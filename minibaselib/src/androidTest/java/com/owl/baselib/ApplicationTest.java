@@ -1,4 +1,4 @@
-package com.owl.minibaselib;
+package com.owl.baselib;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
