@@ -1,5 +1,7 @@
 package com.owl.baselib.http;
 
+import com.owl.baselib.log.MLog;
+
 /**
  * Created by qiushunming on 16/6/30.
  */
@@ -18,7 +20,7 @@ public class HttpUtils {
     }
 
     public static void post(){
-
+        MLog.i("post");
     }
 
     public static void get(){
